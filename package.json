@@ -1,0 +1,39 @@
+{
+  "name": "MadBreadShowsAPI",
+  "version": "1.0.1",
+  "description": "Admin for mananging Mad Bread shoes  json",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madbread/shows-api"
+  },
+  "keywords": [
+    "Mad Bread",
+    "Angular JS",
+    "gulp",
+    "npm",
+    "web app"
+  ],
+  "author": "Slatron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madbread/shows-api"
+  },
+  "homepage": "https://github.com/madbread/shows-api",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-compass": "^2.0.3",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "require-dir": "^0.1.0"
+  }
+}

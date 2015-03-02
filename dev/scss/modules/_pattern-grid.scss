@@ -1,0 +1,22 @@
+.pattern-grid {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+
+  // inline-block forces grid squares to push full width
+  display: inline-block;
+}
+
+.pattern-grid .square {
+
+  @extend %square;
+
+  border-bottom: none;
+  border-right: none;
+
+  transition: all 1200ms $link-transition-type;
+
+  &.active,
+  &:hover {
+    color: $color-black;
+  }
+}
